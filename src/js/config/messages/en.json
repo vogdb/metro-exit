@@ -1,0 +1,101 @@
+{
+    "station": {
+        "aleksSad": "Aleksandrovsky Sad",
+        "arbat": "Arbatskaya",
+        "barrikad": "Barrikadnaya",
+        "belorusKolc": "Belorusskaya",
+        "belorusRad": "Belorusskaya",
+        "bibLenin": "Biblioteka Imeni Lenina",
+        "borov": "Borovitskaya",
+        "dinamo": "Dinamo",
+        "dobrynin": "Dobryninskaya",
+        "kitajKaluzh": "Kitay-Gorod",
+        "kitajTagan": "Kitay-Gorod",
+        "komsomol": "Komsomol’skaya",
+        "krasnopresn": "Krasnopresnenskaya",
+        "krasnVorot": "Krasnye Vorota",
+        "kropotk": "Kropotkinskaya",
+        "kuznec": "Kuznetsky Most",
+        "kuncev": "Kuntsevskaya",
+        "kursk": "Kurskaya",
+        "lubyanka": "Lubyanka",
+        "marksist": "Marksistskaya",
+        "mayakov": "Mayakovskaya",
+        "mezhNarod": "Mezhdunarodnaya",
+        "novokuzn": "Novokuznetskaya",
+        "novoslob": "Novoslobodskaya",
+        "oktyabrKolc": "Oktyabr’skaya",
+        "oktyabrRad": "Oktyabr’skaya",
+        "ohot": "Okhotny Ryad",
+        "pavelRad": "Paveletskaya",
+        "parkKult": "Park Kultury",
+        "plRev": "Ploshchad’ Revolyutsii",
+        "polyanka": "Polyanka",
+        "prospMiraKolc": "Prospekt Mira",
+        "prospMiraRad": "Prospekt Mira",
+        "pushk": "Pushkinskaya",
+        "rizhsk": "Rizhskaya",
+        "smolensk": "Smolenskaya",
+        "sreten": "Sretensky Bul’var",
+        "suxarev": "Sukharevskaya",
+        "taganTagan": "Taganskaya",
+        "tver": "Tverskaya",
+        "teatr": "Teatral’naya",
+        "tretyakovKaluzh": "Tretyakovskaya",
+        "tretyakovKalin": "Tretyakovskaya",
+        "trubn": "Trubnaya",
+        "turgen": "Turgenevskaya",
+        "cvetBulv": "Tsvetnoy Bul’var",
+        "cheh": "Chekhovskaya",
+        "chistPrud": "Chistye Prudy",
+        "chkalov": "Chkalovskaya",
+        "shabolov": "Shabolovskaya"
+    },
+    "route": {
+        "ohotTK": "The \"Okhotny Ryad\" mall"
+    },
+    "loading": {
+        "process": "Loading",
+        "fail": "Can't connect with the maps. Check you internet connection.",
+        "repeat": "Check the internet"
+    },
+    "page": {
+        "index": {
+            "address": "I know address",
+            "station": "Select station",
+            "preferences": "Preferences"
+        },
+        "station": {
+            "input": "Select station",
+            "emptyInput": "You must select station"
+        },
+        "address": {
+            "input": "Input address",
+            "emptyInput": "You must input address",
+            "searchPrefix": "Russia, Moscow, "
+        },
+        "selectAddress": {
+            "emptyInput": "Select address",
+            "title": "Search has found multiple addresses",
+            "showOnMap": "Show"
+        },
+        "selectRoute": {
+            "emptyInput": "Select station",
+            "title": "From which station you're planning to go?",
+            "showRoute": "Show the route"
+        },
+        "preferences": {
+            "map": "Map",
+            "mapSave": "Map selection is saved",
+            "lang": "Language"
+        },
+        "wrongArgs": "Wrong input parameters"
+    },
+    "action": {
+        "back": "Back",
+        "forward": "Forward",
+        "search": "Search",
+        "select": "Select",
+        "save": "Save"
+    }
+}

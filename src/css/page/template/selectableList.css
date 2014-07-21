@@ -1,0 +1,3 @@
+.selected {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(245, 246, 246, 1)), color-stop(21%, rgba(219, 220, 226, 1)), color-stop(57%, rgba(184, 186, 198, 1)), color-stop(97%, rgba(221, 223, 227, 1)), color-stop(100%, rgba(245, 246, 246, 1)));
+}

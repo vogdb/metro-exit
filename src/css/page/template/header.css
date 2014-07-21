@@ -1,0 +1,51 @@
+#header {
+    /*display: -webkit-box;*/
+    /*-webkit-box-orient: horizontal;*/
+    /*-webkit-box-pack: justify;*/
+    -webkit-box-sizing: border-box;
+    border: 0.03em solid;
+}
+
+#header.vertical {
+    width: 100%;
+    height: auto;
+    padding: 0.2em 0.3em;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#b2bbca), color-stop(0.25, #a7b0c3), color-stop(0.5, #909cb3), color-stop(0.5, #8593ac), color-stop(0.75, #7c8ba5), to(#73839f));
+    border-top-color: #cdd5df;
+    border-bottom-color: #2d3642;
+    line-height: normal;
+}
+
+#header.horizontal {
+    float: left;
+    width: auto;
+    height: 100%;
+    padding: 0.3em 0.2em;
+    background-image: -webkit-gradient(linear, left top, right top, from(#b2bbca), color-stop(0.25, #a7b0c3), color-stop(0.5, #909cb3), color-stop(0.5, #8593ac), color-stop(0.75, #7c8ba5), to(#73839f));
+    border-left: #cdd5df;
+    border-right: #2d3642;
+    line-height: 0.9em;
+    position: fixed;
+}
+
+#header.vertical .button {
+    padding: 0.3em 0;
+    background-repeat:repeat-x;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#92a1bf), color-stop(0.25, #798aad), color-stop(0.5, #6276a0), color-stop(0.5, #556a97), color-stop(0.75, #566c98), to(#546993));
+}
+
+#header.horizontal .button {
+    padding: 0.2em 0.1em;
+    background-repeat:repeat-y;
+    background-image: -webkit-gradient(linear, left top, right top, from(#92a1bf), color-stop(0.25, #798aad), color-stop(0.5, #6276a0), color-stop(0.5, #556a97), color-stop(0.75, #566c98), to(#546993));
+    line-height: 0.9em;
+}
+
+#header.horizontal #back {
+    width: 1.2em;
+    height: 4.6em; /*TODO to js calculation! length of innerHtml (5) minus top and bottom .button paddings*/
+}
+
+#header.vertical #back {
+    width: 4.6em;
+}

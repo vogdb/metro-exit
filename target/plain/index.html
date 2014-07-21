@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    <meta name='viewport' content='initial-scale=1.0, user-scalable=no, width = device-width'/>
+    <link rel='stylesheet' type='text/css' href='css/index.css'/>
+    <script type='text/javascript' src='js/3rdparty/i18n.min.js'></script>
+    <script type='text/javascript' src='js/index.js'></script>
+</head>
+
+<body id='contentWrapper'>
+<div id='content'>
+    <div id='loading'>
+        <div class='whiteTextShadow i18n'>loading.process</div>
+        <span id='loadingIcon'></span>
+    </div>
+    <div id='noInternet'>
+        <div class='whiteTextShadow i18n'>loading.fail</div>
+        <a href='#' class='button i18n'>loading.repeat</a>
+    </div>
+    <div id='hasInternet'>
+        <a href='address.html' class='button i18n'>page.index.address</a>
+        <a href='station.html' class='button i18n'>page.index.station</a>
+        <a href='preferences/index.html' class='button' id='preferences'>
+            <img src="images/icon/gear.png">
+            <div class='i18n'>page.index.preferences</div>
+        </a>
+    </div>
+</div>
+</body>
+</html>

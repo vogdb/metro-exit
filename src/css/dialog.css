@@ -1,0 +1,22 @@
+.overlay {
+    position: absolute;
+    /*padding: 1em;*/
+    top: 0px;
+    left: 0px;
+    /*z-index: 46;*/
+    background-color: #fff;
+    opacity: 1;
+    filter: alpha(opacity: 100);
+}
+
+.closeButton {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /*z-index: 100;*/
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    background: no-repeat url('../images/icon/closeButton.png');
+    background-size: cover;
+}

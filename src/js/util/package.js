@@ -1,0 +1,1 @@
+var metro = metro || { exit: {}}

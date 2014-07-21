@@ -1,0 +1,1 @@
+metro.exit.drawer = metro.exit.drawer || {}

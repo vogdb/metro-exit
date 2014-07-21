@@ -1,0 +1,31 @@
+{
+    "name": "metro-exit",
+    "title": "Metro Exit",
+    "description": "Application that helps to find exit from metro station",
+    "version": "0.5.1",
+    "homepage": "no",
+    "author": {
+        "name": "Sanin Alex",
+        "url": "no",
+        "email": "vozhdb@gmail.com"
+    },
+    "licenses": [],
+    "dependencies": {
+        "i18n": "git+https://vogdb@bitbucket.org/vogdb/i18n-text.git#v0.1.0",
+        "canvas-manipulation": "git+https://vogdb@bitbucket.org/vogdb/canvas-manipulation.git#v0.3.0",
+        "canvas-manipulation-touch-listener-plugin": "git+https://vogdb@bitbucket.org/vogdb/canvas-manipulation-touch-listener-plugin.git#v0.2.0",
+        "prompter": "git+https://vogdb@bitbucket.org/vogdb/prompter.git#v0.2.2",
+        "leaflet": "git://github.com/vogdb/Leaflet.git#v0.5.1_package.json",
+        "leaflet.select-layers": "git://github.com/vogdb/SelectLayersControl.git#v0.1.1"
+    },
+    "devDependencies": {
+        "grunt-contrib-concat": "~0.2.0",
+        "grunt-contrib-watch": "~0.3.1",
+        "grunt-contrib-copy": "~0.4.1",
+        "grunt-copy-to": "~0.0.3",
+        "grunt-contrib-cssmin": "~0.6.0",
+        "grunt-shell": "~0.2.0",
+        "grunt": "~0.4.1"
+    },
+    "keywords": []
+}

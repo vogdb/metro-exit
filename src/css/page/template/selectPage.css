@@ -1,0 +1,12 @@
+.prompter {
+    position: inherit;
+}
+
+.prompter li {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+#go {
+    margin-top: 0.5em;
+}

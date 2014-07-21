@@ -1,0 +1,43 @@
+#contentWrapper {
+    position: relative;
+}
+#header {
+    z-index: 20;
+}
+#header.vertical, #control {
+    position: fixed;
+}
+#control {
+    z-index: 10;
+    width: 100%;
+    background-color: #ddd;
+    padding: 0.4em 0.2em;
+}
+
+.vertical .input {
+    width: 96%;
+}
+.vertical .button {
+    width: 95%;
+}
+.horizontal .input {
+    width: 91%;
+}
+.horizontal .button {
+    width: 90%;
+}
+
+.input {
+    box-sizing: border-box;
+    padding: 0.1em 0.2em;
+    margin-bottom: 0.3em;
+    border-radius: 0.3em;
+    border: #999 0.1em solid;
+    color: #008DCF;
+    font: inherit;
+}
+
+#contentWrapper .prompter{
+    position: static;
+    margin: 0 auto;
+}

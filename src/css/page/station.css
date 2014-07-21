@@ -1,0 +1,9 @@
+#color{
+    position: absolute;
+    margin: 0.2em 0 0 0.4em;
+    border: 0.075em solid #000;
+}
+
+.input {
+    padding-left: 1.6em;
+}

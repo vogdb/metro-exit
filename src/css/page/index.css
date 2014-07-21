@@ -1,0 +1,38 @@
+#contentWrapper {
+    width: 100%;
+    height: 100%
+}
+
+.button {
+    margin-top: 1em
+}
+
+.button:first-child {
+    margin-top: 0;
+}
+
+#noInternet, #hasInternet, #noInternet div {
+    width: 100%;
+}
+
+#noInternet div {
+    margin-bottom: 1em;
+}
+
+#noInternet, #hasInternet, #loading {
+    display: none;
+}
+
+#loading span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#preferences > *{
+    display: inline-block;
+}
+
+#preferences img{
+    width: 0.8em;
+    height: 0.8em;
+}

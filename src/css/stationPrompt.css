@@ -1,0 +1,12 @@
+.color {
+    height: 1em;
+    width: 1em;
+    margin-right: 0.2em;
+    display: inline-block;
+}
+
+.prompter li .ru {
+    font-size: 0.7em;
+    margin-left: 2.5em;
+    color: #555;
+}

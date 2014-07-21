@@ -1,0 +1,48 @@
+.horizontal #title {
+    padding: 1.0em 0 0.3em 0.3em;
+    margin: 0 auto;
+    width: 1em;
+}
+
+.vertical #title {
+    display: inline-block;
+    margin-left: 2em;
+    /*float: right;*/
+    /*padding-top: 0.45em;*/
+}
+
+.vertical #back {
+    display: inline-block;
+    margin: 0;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#prefs {
+    margin: 0;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+#prefs select {
+    font: inherit;
+}
+
+#prefs .button {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    display: inline;
+}
+
+.mapArea {
+    overflow: hidden; /*обязательное св-ов для leaflet карт, а иначе они занимают все свободное место*/
+    display: none;
+}
+
+.active {
+    display: block;
+}

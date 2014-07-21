@@ -1,0 +1,87 @@
+#tools, #scheme {
+    float: left;
+}
+
+#tools {
+    width: 100px;
+    height: 95%;
+    border: 2px solid #444;
+    position: fixed;
+}
+
+#tools div {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#tools > .icon, #tools > .dialog > .title {
+    border: 1px solid #777;
+    margin: 1px;
+    cursor: pointer;
+}
+
+#tools > .icon {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    font-size: 40px;
+}
+
+#tools > .dialog {
+    border: solid #000;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+#tools > .dialog > .title {
+    height: 23px;
+}
+
+#tools > .dialog > .content {
+    display: none;
+}
+
+#tools > .dialog > .content .coord {
+    display: inline-block;
+    width: 46px;
+}
+
+#tools > .dialog > .content .coord input{
+    width: 42px;
+}
+
+.active {
+    background-color: #cacaca;
+}
+
+#scheme {
+    margin-left: 100px;
+    background-position: 0 0;
+}
+
+#nodeEditor {
+    position: absolute;
+    width: 200px;
+    height: 280px;
+    display: none;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+#nodeEditor div.close {
+    height: 20px;
+    width: 20px;
+    font-size: 18px;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    border-color: inherit;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+}
+
+#nodeEditor div.node {
+    height: 60px;
+    border-color: inherit;
+    border-bottom: 1px solid;
+}

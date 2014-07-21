@@ -1,0 +1,12 @@
+#content > * {
+    margin-bottom: 1em;
+}
+
+#lang > * {
+    display: inline-block;
+}
+
+#lang img {
+    width: 1em;
+    height: 0.8em;
+}
